@@ -46,3 +46,7 @@ the repo, so you can see what happened on any given day.
 ## Notes
 
 - Only run this against your own account. A claim uses up that account's daily limit.
+
+### Thanks to Nexora (sadisticblooper)
+
+[Original Repository](https://github.com/sadisticblooper/CODM-Daily-Claim)
