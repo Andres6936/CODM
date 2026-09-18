@@ -1,0 +1,45 @@
+{
+  "player_id": "AQQMEV",
+  "region": "auto",
+  "country_guess": "CO",
+  "profile": {
+    "username": "ȺでAndres6936",
+    "shortId": null,
+    "picUrl": null,
+    "levelImage": null,
+    "rank": null,
+    "rankImage": null
+  },
+  "resolved": {
+    "region": "sa",
+    "country": "CO"
+  },
+  "country": "CO",
+  "freebies": [
+    {
+      "skuId": "com.activision.callofduty.webstore_39_0_0",
+      "name": "DAILY GIFT",
+      "status": "ACTIVE",
+      "buyUrl": "https://order-sg.codashop.com/claim-freebie-reward",
+      "remaining": 1,
+      "limit": 1,
+      "refreshRate": 86400,
+      "refreshAtUnix": 1789776000
+    }
+  ],
+  "ok": true,
+  "claims": [
+    {
+      "skuId": "com.activision.callofduty.webstore_39_0_0",
+      "name": "DAILY GIFT",
+      "ok": true,
+      "result_code": 0,
+      "result": "SUCCESS",
+      "response": {
+        "RESULT_CODE": 0,
+        "errorCode": "",
+        "errorMsg": ""
+      }
+    }
+  ]
+}
