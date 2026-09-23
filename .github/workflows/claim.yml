@@ -55,9 +55,6 @@ jobs:
           # Publish exit code as output
           "claim_exit_code=$rc" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
 
-          # Show the JSON result in the job log
-          Get-Content $jsonOut
-
           # Fail the step if exit code is 3 (server error)
           if ($rc -eq 3) { exit 1 }
 
