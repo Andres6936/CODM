@@ -572,6 +572,9 @@ async function main(): Promise<number> {
   out.claims = results;
 
   if (asJson) {
+    // Delete sensitive fields before logging
+    delete out.player_id;
+    delete out.profile;
     console.log(JSON.stringify(out, null, 2));
   } else {
     for (const r of results) {
