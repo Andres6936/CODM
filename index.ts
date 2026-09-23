@@ -412,7 +412,6 @@ async function main(): Promise<number> {
   const regionArg = String(values.region);
 
   const out: any = {
-    player_id: playerId,
     region: regionArg,
     country_guess: countryGuess,
   };
@@ -431,7 +430,6 @@ async function main(): Promise<number> {
     console.log(asJson ? JSON.stringify(out, null, 2) : err);
     return 3;
   }
-  out.profile = profile;
   out.resolved = meta;
   const claimUser = profile!.shortId || playerId;
 
@@ -571,9 +569,6 @@ async function main(): Promise<number> {
   out.claims = results;
 
   if (asJson) {
-    // Delete sensitive fields before logging
-    delete out.player_id;
-    delete out.profile;
     console.log(JSON.stringify(out, null, 2));
   } else {
     for (const r of results) {
