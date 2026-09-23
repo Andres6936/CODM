@@ -418,7 +418,6 @@ async function main(): Promise<number> {
   };
   let exitCode = 0;
 
-  debugger;
   // --- Validate ---
   const [profile, err, meta] = await validate(
     playerId,
