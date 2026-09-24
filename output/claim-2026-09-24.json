@@ -1,0 +1,36 @@
+{
+  "region": "auto",
+  "country_guess": "CO",
+  "resolved": {
+    "region": "sa",
+    "country": "CO"
+  },
+  "country": "CO",
+  "freebies": [
+    {
+      "skuId": "com.activision.callofduty.weekotov2_1n_0_0",
+      "name": "DAILY GIFT",
+      "status": "ACTIVE",
+      "buyUrl": "https://order-sg.codashop.com/claim-freebie-reward",
+      "remaining": 1,
+      "limit": 1,
+      "refreshRate": 86400,
+      "refreshAtUnix": 1790294400
+    }
+  ],
+  "ok": true,
+  "claims": [
+    {
+      "skuId": "com.activision.callofduty.weekotov2_1n_0_0",
+      "name": "DAILY GIFT",
+      "ok": true,
+      "result_code": 0,
+      "result": "SUCCESS",
+      "response": {
+        "RESULT_CODE": 0,
+        "errorCode": "",
+        "errorMsg": ""
+      }
+    }
+  ]
+}
